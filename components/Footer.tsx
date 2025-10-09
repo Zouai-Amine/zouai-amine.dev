@@ -63,16 +63,6 @@ export default function Footer() {
                         <MessageCircle size={40} />
                     </motion.a>
                 </div>
-
-                {/* Back to Top */}
-                <motion.button
-                    onClick={scrollToTop}
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="flex items-center gap-2 px-4 py-2 bg-blue-500 dark:bg-blue-400 hover:bg-blue-600 dark:hover:bg-blue-500 text-white rounded-lg shadow-lg transition-all font-medium"
-                >
-                    <ArrowUp size={18} /> Top
-                </motion.button>
             </div>
 
             <p className="text-center text-sm mt-6 text-gray-600 dark:text-gray-400">
