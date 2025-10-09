@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { ArrowUp, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowUp, Github, Linkedin, Mail, MessageCircle } from "lucide-react";
 
 export default function Footer() {
     const scrollToTop = () => {
@@ -19,30 +19,49 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
                 {/* Social Links */}
                 <div className="flex gap-6">
+                    {/* GitHub */}
                     <motion.a
                         href="https://github.com/Zouai-Amine"
                         target="_blank"
                         whileHover={{ scale: 1.2, color: "#2563EB" }}
                         className="transition-colors"
+                        aria-label="GitHub Profile"
                     >
-                        <Github size={24} />
+                        <Github size={40} />
                     </motion.a>
+
+                    {/* LinkedIn */}
                     <motion.a
                         href="https://www.linkedin.com/in/zouai-amine/"
                         target="_blank"
                         whileHover={{ scale: 1.2, color: "#0A66C2" }}
                         className="transition-colors"
+                        aria-label="LinkedIn Profile"
                     >
-                        <Linkedin size={24} />
+                        <Linkedin size={40} />
                     </motion.a>
+
+                    {/* Email */}
                     <motion.button
                         onClick={scrollToContact}
                         whileHover={{ scale: 1.2, color: "#EF4444" }}
                         className="transition-colors flex items-center"
                         aria-label="Go to Contact Section"
                     >
-                        <Mail size={24} />
+                        <Mail size={40} />
                     </motion.button>
+
+                    {/* WhatsApp */}
+                    <motion.a
+                        href="https://wa.me/213659549543"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        whileHover={{ scale: 1.2, color: "#25D366" }}
+                        className="transition-colors"
+                        aria-label="Chat on WhatsApp"
+                    >
+                        <MessageCircle size={40} />
+                    </motion.a>
                 </div>
 
                 {/* Back to Top */}

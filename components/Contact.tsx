@@ -78,7 +78,7 @@
                                     </div>
                                     <div>
                                         <p className="font-medium text-gray-900 dark:text-white">Email</p>
-                                        <p className="text-gray-600 dark:text-gray-400">zouai.amine@example.com</p>
+                                        <p className="text-gray-600 dark:text-gray-400">onlyzouai@gmail.com</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center space-x-3">
@@ -87,7 +87,7 @@
                                     </div>
                                     <div>
                                         <p className="font-medium text-gray-900 dark:text-white">Location</p>
-                                        <p className="text-gray-600 dark:text-gray-400">Available Worldwide</p>
+                                        <p className="text-gray-600 dark:text-gray-400">Algeria , Available Worldwide</p>
                                     </div>
                                 </div>
                             </div>
