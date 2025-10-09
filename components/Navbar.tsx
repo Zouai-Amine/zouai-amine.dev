@@ -103,7 +103,10 @@ export default function Navbar() {
                 key={section}
                 href={`#${section}`}
                 onClick={() => setOpen(false)}
-                className="hover:text-blue-500 transition"
+                className={`hover:text-blue-500 transition ${activeSection === section
+                  ? "text-blue-500 font-semibold"
+                  : "text-gray-700 dark:text-gray-300"
+                  }`}
               >
                 {section.charAt(0).toUpperCase() + section.slice(1)}
               </a>
