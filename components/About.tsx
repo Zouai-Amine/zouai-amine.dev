@@ -3,11 +3,14 @@ import { motion } from "framer-motion";
 import { Code, Database,Zap, Globe } from "lucide-react";
 
 const skills = [
-    { name: "React/Next.js", icon: Code, level: 90 },
-    { name: "Node.js", icon: Database, level: 85 },
-    { name: "Automation", icon: Zap, level: 85 },
-    { name: "Web Design", icon: Globe, level: 90 },
+  { name: "FastAPI / Python", icon: Code, level: 90 },
+  { name: "Next.js / React", icon: Globe, level: 90 },
+  { name: "MySQL / MariaDB", icon: Database, level: 85 },
+  { name: "WebSockets & Real-Time Apps", icon: Zap, level: 85 },
+  { name: "Docker & CI/CD", icon: Database, level: 75 },
+  { name: "Automation / Scripting", icon: Zap, level: 80 },
 ];
+
 
 export default function About() {
     return (
