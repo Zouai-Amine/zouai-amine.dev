@@ -1,12 +1,10 @@
 "use client";
 import { motion } from "framer-motion";
-import { Code, Database, Smartphone, Gamepad2, Zap, Globe } from "lucide-react";
+import { Code, Database,Zap, Globe } from "lucide-react";
 
 const skills = [
     { name: "React/Next.js", icon: Code, level: 90 },
     { name: "Node.js", icon: Database, level: 85 },
-    { name: "Mobile Dev", icon: Smartphone, level: 80 },
-    { name: "Game Dev", icon: Gamepad2, level: 75 },
     { name: "Automation", icon: Zap, level: 85 },
     { name: "Web Design", icon: Globe, level: 90 },
 ];
